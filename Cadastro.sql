@@ -61,7 +61,13 @@ CREATE TABLE `meliantes` (
 
 LOCK TABLES `meliantes` WRITE;
 
-INSERT INTO `meliantes` VALUES (NULL,1,'Bauman',NULL,'2004-01-10','M',75.50,1.76,'Brasil'),(NULL,2,'Platão',NULL,'1904-01-10','M',85.30,1.86,'Greece'),(NULL,3,'Kafka',NULL,'1804-01-10','M',79.70,1.81,'Brasil'),(NULL,4,'Aristoteles',NULL,'1704-01-10','M',81.90,1.85,'Germany'),(NULL,8,'Alighieri',NULL,'1604-01-10','M',78.20,1.73,'Italy'),(NULL,9,'Shakespeare',NULL,'1650-01-10','M',73.20,1.77,'England'),(NULL,10,'Homero',NULL,'1683-01-10','M',87.00,1.79,'France');
+INSERT INTO `meliantes` VALUES (NULL,1,'Bauman',NULL,'2004-01-10','M',75.50,1.76,'Brasil'),
+(NULL,2,'Platão',NULL,'1904-01-10','M',85.30,1.86,'Greece'),
+(NULL,3,'Kafka',NULL,'1804-01-10','M',79.70,1.81,'Brasil'),
+(NULL,4,'Aristoteles',NULL,'1704-01-10','M',81.90,1.85,'Germany'),
+(NULL,8,'Alighieri',NULL,'1604-01-10','M',78.20,1.73,'Italy'),
+(NULL,9,'Shakespeare',NULL,'1650-01-10','M',73.20,1.77,'England'),
+(NULL,10,'Homero',NULL,'1683-01-10','M',87.00,1.79,'France');
 
 UNLOCK TABLES;
 
